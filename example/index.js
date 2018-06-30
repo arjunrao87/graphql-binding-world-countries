@@ -1,8 +1,6 @@
 const { GraphQLServer } = require('graphql-yoga')
 const WorldCountriesBinding = require('../dist')
 const typeDefs = require("./typedefs")
-console.log(WorldCountriesBinding)
-console.log(WorldCountriesBinding.query)
 const resolvers = {
     Query: {
       hello: (parent, { name }) => `Hello ${name || 'World'}!`,
