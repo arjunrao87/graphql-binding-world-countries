@@ -1,6 +1,6 @@
 {
   "name": "graphql-binding-world-countries",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "GraphQL binding to access world countries information about demographics, codes etc.",
   "dependencies": {
     "axios": "^0.18.0",
@@ -20,12 +20,18 @@
     "information"
   ],
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "graphql-binding-world-countries": "^0.1.0",
     "graphql-yoga": "^1.14.10"
   },
   "scripts": {
-    "start": "node example/index.js"
+    "start": "node example/index.js",
+    "build": "babel src --out-dir dist",
+    "prepare": "yarn run build"
   },
   "files": [
-    "src"
+    "dist"
   ]
 }

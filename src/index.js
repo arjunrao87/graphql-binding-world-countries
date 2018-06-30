@@ -1,3 +1,3 @@
-const worldCountriesBinding = require('./binding')
+const WorldCountriesBinding = require('./binding')
 
-module.exports = worldCountriesBinding;
+module.exports = WorldCountriesBinding;
