@@ -5,7 +5,7 @@
 
 # Usage
 
-This graphql binding is available in [NPM]()
+This graphql binding is available in [NPM](https://www.npmjs.com/package/graphql-binding-world-countries)
 
 Check out the [examples](example) to see how to use this binding
 
