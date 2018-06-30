@@ -1266,9 +1266,9 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-binding-world-countries@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/graphql-binding-world-countries/-/graphql-binding-world-countries-0.1.0.tgz#8decdce93b4dcb1f191b1fd2d5a993a644642a71"
+graphql-binding-world-countries@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/graphql-binding-world-countries/-/graphql-binding-world-countries-0.2.1.tgz#fb05e259a21e31b91bb60b70df6b8cef42768ebf"
   dependencies:
     axios "^0.18.0"
     graphql-binding "^2.1.1"

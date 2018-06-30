@@ -1,5 +1,5 @@
 const { GraphQLServer } = require('graphql-yoga')
-const WorldCountriesBinding = require('../dist')
+const WorldCountriesBinding = require('graphql-binding-world-countries/dist')
 const typeDefs = require("./typedefs")
 const resolvers = {
     Query: {
