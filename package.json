@@ -18,5 +18,14 @@
     "facts",
     "codes",
     "information"
+  ],
+  "devDependencies": {
+    "graphql-yoga": "^1.14.10"
+  },
+  "scripts": {
+    "start": "node example/index.js"
+  },
+  "files": [
+    "src"
   ]
 }
