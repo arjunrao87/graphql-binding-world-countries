@@ -1,3 +1,2 @@
-const WorldCountriesBinding = require('./binding')
-
-module.exports = WorldCountriesBinding;
+import binding from "./binding"
+export default binding

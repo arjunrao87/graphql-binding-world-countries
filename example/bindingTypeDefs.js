@@ -1,8 +1,5 @@
-const typeDefs =
+const bindingTypeDefs =
 `
-type Query{
-    countries(input: CountryInput): [Country]
-}
 
 type Country{
     name: String
@@ -122,4 +119,4 @@ enum RegionalBlockEnum{
     SAARC
 }`;
 
-module.exports = typeDefs;
+module.exports = bindingTypeDefs
