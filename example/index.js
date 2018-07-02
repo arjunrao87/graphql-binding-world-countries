@@ -1,5 +1,5 @@
 const { GraphQLServer } = require('graphql-yoga')
-const binding = require('../dist').default
+const binding = require('graphql-binding-world-countries/dist').default
 const appTypeDefs = require("./appTypeDefs")
 const bindingTypeDefs = require("./bindingTypeDefs")
 const mergedTypeDefs = `${appTypeDefs}${bindingTypeDefs}`

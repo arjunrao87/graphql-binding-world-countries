@@ -86,9 +86,7 @@ const getURL = (input, baseURL) => {
 const resolvers = {
   Query: {
     countries: (_, { input }) => {
-      console.log(JSON.stringify(input))
-      const url = getURL(input, BASE_SOURCE_URL);
-      return makeRequest(url);
+      return makeRequest(getURL(input, BASE_SOURCE_URL));
     },
   },
   Country: {
